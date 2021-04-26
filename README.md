@@ -1,5 +1,6 @@
 # Spatiotemporal-Model
-存储时序数据预测的相关模型，基于tensorflow 2.0 实现
+存储时序数据预测的相关模型的复现，基于tensorflow 2.0 实现
+本仓库仅包含模型部分，对于数据的处理部分参考相关论文
 
 
 
