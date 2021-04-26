@@ -11,7 +11,7 @@
 
 |   模型    | 创新点 |                             框架                             | Github                         |
 | :-------: | :----: | :----------------------------------------------------------: | ------------------------------ |
-| ST-ResNet |        | <img src="D:\GitHub\Model\ST_ResNet\architecture.png" alt="ST-ResNet" style="zoom:50%;" /> | [code](/ST_ResNet)  [papper]() |
+| ST-ResNet |        | <img src="./ST_ResNet/architecture.png" alt="ST-ResNet" style="zoom:50%;" /> | [code](/ST_ResNet)  [papper]() |
 
 *Junbo Zhang, Yu Zheng, Dekang Qi*
 
@@ -21,7 +21,7 @@
 
 |   模型    | 创新点 |                             框架                             | Github                         |
 | :-------: | :----: | :----------------------------------------------------------: | ------------------------------ |
-| ST-ResNet |        | <img src="D:\GitHub\Model\DeepSTD\DeepSTD.png" alt="DeepSTD" style="zoom:50%;" /> | [code](/ST_ResNet)  [papper]() |
+| ST-ResNet |        | <img src="./DeepSTD/DeepSTD.png" alt="DeepSTD" style="zoom:50%;" /> | [code](/ST_ResNet)  [papper]() |
 
 *Chuanpan Zheng , Xiaoliang Fan, Chuanpan Zheng, Xiaoliang Fan*
 
@@ -29,9 +29,9 @@
 
 3. **ASTIR: Spatio-Temporal Data Mining for Crowd Flow Prediction**     
 
-| 模型  | 创新点 |                             框架                             | Github |
-| :---: | :----: | :----------------------------------------------------------: | ------ |
-| ASTIR |        | <img src="D:\GitHub\Model\ASTIR\ASTIR architecture.png" alt="ASTIR" style="zoom:50%;" />[code](/ST_ResNet)  [papper]() |        |
+| 模型  | 创新点 |                             框架                             | Github                         |
+| :---: | :----: | :----------------------------------------------------------: | ------------------------------ |
+| ASTIR |        | <img src="./ASTIR/ASTIR architecture.png" alt="ASTIR" style="zoom:50%;" /> | [code](/ST_ResNet)  [papper]() |
 
 *Lablack Mourad, Heng Qi , Yanming Shen, Baocai Yin*
 
@@ -39,9 +39,9 @@
 
 4. **DeepSTN+: Context-aware Spatial-Temporal Neural Network for Crowd Flow Prediction in Metropolis**     
 
-|   模型   | 创新点 |                             框架                             | Github |
-| :------: | :----: | :----------------------------------------------------------: | ------ |
-| DeepSTN+ |        | <img src="D:\GitHub\Model\DeepSTN+\architecture.png" alt="DeepSTN+" style="zoom: 50%;" />[code](/ST_ResNet)  [papper]() |        |
+|   模型   | 创新点 |                             框架                             | Github                         |
+| :------: | :----: | :----------------------------------------------------------: | ------------------------------ |
+| DeepSTN+ |        | <img src="./DeepSTN+/architecture.png" alt="DeepSTN+" style="zoom: 50%;" /> | [code](/ST_ResNet)  [papper]() |
 
 *Ziqian Lin, Jie Feng, Ziyang Lu, Yong Li, Depeng Jin*
 
@@ -51,7 +51,7 @@
 
 | 模型  | 创新点 |                             框架                             | Github                         |
 | :---: | :----: | :----------------------------------------------------------: | ------------------------------ |
-| DMVST |        | <img src="D:\GitHub\Model\DMVST\architecture.png" alt="DMVST" style="zoom:50%;" /> | [code](/ST_ResNet)  [papper]() |
+| DMVST |        | <img src="./DMVST/architecture.png" alt="DMVST" style="zoom:50%;" /> | [code](/ST_ResNet)  [papper]() |
 
 *Huaxiu Yao, Fei Wu, Jintao Ke, Xianfeng Tang*
 
@@ -59,7 +59,7 @@
 
 | 模型 | 创新点 |                             框架                             | Github             |
 | :--: | :----: | :----------------------------------------------------------: | ------------------ |
-| MDL  |        | <img src="D:\GitHub\Model\DeepSTN+\architecture.png" alt="DeepSTN+" style="zoom: 50%;" /> | [code](/ST_ResNet) |
+| MDL  |        | <img src="./DeepSTN+/architecture.png" alt="DeepSTN+" style="zoom: 50%;" /> | [code](/ST_ResNet) |
 
 *Junbo Zhang, Yu Zheng, Junkai Sun, Dekang Qi*
 
@@ -67,7 +67,7 @@
 
 |   模型   | 创新点 |                             框架                             | Github             |
 | :------: | :----: | :----------------------------------------------------------: | ------------------ |
-| DeepSTN+ |        | <img src="D:\GitHub\Model\DeepSTN+\architecture.png" alt="DeepSTN+" style="zoom: 50%;" /> | [code](/ST_ResNet) |
+| DeepSTN+ |        | <img src="./DeepSTN+/architecture.png" alt="DeepSTN+" style="zoom: 50%;" /> | [code](/ST_ResNet) |
 
 *Ziqian Lin, Jie Feng, Ziyang Lu, Yong Li, Depeng Jin*
 
