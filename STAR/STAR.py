@@ -47,10 +47,10 @@ def STAR(c_conf=(3, 2, 32, 32), p_conf=(1, 2, 32, 32), t_conf=(1, 2, 32, 32), ex
 
     main_inputs = []
 
-    input = tf.keras.Input(shape=(map_height, map_width, (nb_flow * (c_conf[0]+p_conf[0]*2+t_conf[0]*2))))
+    input = tf.keras.Input(shape=(map_height, map_width, (nb_flow * (c_conf[0]+p_conf[0]+t_conf[0]))))
 
     main_inputs.append(input)
-    main_output = main_inputs[0] # flows data
+    main_output = input # flows data
 
     if external_dim != None and external_dim > 0:
         # external input
@@ -59,7 +59,7 @@ def STAR(c_conf=(3, 2, 32, 32), p_conf=(1, 2, 32, 32), t_conf=(1, 2, 32, 32), ex
         embedding = Dense(units=10, activation='relu')(external_input)
         h1 = Dense(units=2*map_height * map_width, activation='relu')(embedding)
         external_output = Reshape((map_height, map_width, 2))(h1)
-        main_output = Concatenate(axis=-1)([main_output, external_output])
+        main_output = Concatenate(axis=-1)([input, external_output])
     else:
         print('external_dim:', external_dim)
 

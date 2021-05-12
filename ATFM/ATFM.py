@@ -36,7 +36,7 @@ def ATFM(s=(3,32,32,2), p=(3,32,32,2), e=(3,18), ):
     # P_in:(m, h, w) 前 m 天同一时刻的数据 -->  P_f:(c, h, w)
 
     n, c, h, w = s
-    m = p[1]
+    m = p[0]
 
     s_input = Input(shape=s)
     p_input = Input(shape=p)
@@ -45,7 +45,7 @@ def ATFM(s=(3,32,32,2), p=(3,32,32,2), e=(3,18), ):
         Feature Extraction
     """
     # 1、Sequential
-    s_feature = []  # (n,32,32,16)
+    s_feature = []
     # print(s_input[:,0,:,:,:].shape)
     for t in range(n):
         s_feature.append(ResNet(filters=16, kernel_size=(3, 3), repetition=1)(s_input[:,t,:,:,:]))
